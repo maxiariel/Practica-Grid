@@ -1,0 +1,60 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  padding: 10px;
+  border: solid 1px #000;
+  background: radial-gradient(circle, transparent, rgb(245, 138, 239));
+}
+.grid-item {
+  background: linear-gradient(to left, transparent, rgb(210, 79, 233));
+  border: solid 2px #000;
+  margin: 1px;
+  text-align: right;
+  font-size: 30px;
+}
+.grid-item:first-child {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(8) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(3) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(10) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(5) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(12) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(15) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(13) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(17) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(20) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(25) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(27) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(22) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(29) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
+.grid-item:nth-child(24) {
+  background: linear-gradient(to right, transparent, rgb(240, 5, 240));
+}
