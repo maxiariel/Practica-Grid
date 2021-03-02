@@ -1,60 +1,88 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.calendar-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(720px, 1fr));
-  grid-auto-rows: auto-fit 873px;
-  justify-content: center;
-  align-content: center;
-  background-color: #000;
-}
-
-.calendar-img {
-  border: outset 5px #222;
-  padding: 5px;
-  background: #000;
-  margin: 10px;
-}
-.calendar-img:hover {
-  border: inset 5px #fff;
-}
-
-.img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .nav-container {
-  padding: 0;
-  margin: 0;
-}
-.nav {
-  padding-bottom: 5px;
-  margin: 0;
+  width: 100%;
+  background: #555;
 }
 
-.nav-ul {
+.nav-ul__first {
+  list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
-  justify-content: left;
 }
-.nav-ul__li {
-  background: rgb(48, 86, 212);
-  width: 100%;
-  list-style: none;
-  text-align: center;
+
+.nav-ul__li__first {
   border-right: solid 1px #fff;
-  padding: 15px;
+  flex-grow: 1;
 }
+
 .nav-ul__li__a {
-  color: #fff;
-  list-style: none;
-  text-decoration: none;
   display: block;
-  font-family: sans-serif;
+  padding: 20px 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-ul__li__first:hover {
+  background: #0003;
+  transition: all 0.5s;
+}
+
+.nav-ul__second {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+}
+
+.nav-ul__li__a__second__sing {
+  display: none;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-ul__li__second {
+  background: #5559;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-ul__li__second:hover {
+  background: #0003;
+  transition: all 0.5s;
+}
+
+.container-img__index {
+  width: 100%;
+  padding: 0;
+  background: #000;
+}
+
+.img__index {
+  width: 100%;
+}
+
+.nav-ul__li__first:hover .nav-ul__li__a__second__sing {
+  display: block;
+}
+
+.nav-ul__li__a__second__month {
+  display: none;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.nav-ul__li__first:hover .nav-ul__li__a__second__month {
+  display: block;
 }
