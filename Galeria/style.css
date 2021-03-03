@@ -88,3 +88,279 @@
 .nav-ul__li__first:hover .nav-ul__li__a__second__month {
   display: block;
 }
+
+.container-img__enero {
+  text-align: center;
+  background: #000;
+}
+.img__enero {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__febrero {
+  text-align: center;
+  background: #000;
+}
+.img__febrero {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__marzo {
+  text-align: center;
+  background: #000;
+}
+.img__marzo {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__abril {
+  text-align: center;
+  background: #000;
+}
+.img__abril {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__mayo {
+  text-align: center;
+  background: #000;
+}
+.img__mayo {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__junio {
+  text-align: center;
+  background: #000;
+}
+.img__junio {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__julio {
+  text-align: center;
+  background: #000;
+}
+.img__julio {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__agosto {
+  text-align: center;
+  background: #000;
+}
+.img__agosto {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__septiembre {
+  text-align: center;
+  background: #000;
+}
+.img__septiembre {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__octubre {
+  text-align: center;
+  background: #000;
+}
+.img__octubre {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__noviembre {
+  text-align: center;
+  background: #000;
+}
+.img__noviembre {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__diciembre {
+  text-align: center;
+  background: #000;
+}
+.img__diciembre {
+  text-align: center;
+  padding: 10px;
+}
+
+.container-img__capricornio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__capricornio {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__virgo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__virgo {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__geminis {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__geminis {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__aries {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__aries {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__escorpio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__escorpio {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__cancer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__cancer {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__libra {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__libra {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__acuario {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__acuario {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__tauro {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__tauro {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__sagitario {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__sagitario {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__leo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__leo {
+  width: 100%;
+  height: 100%;
+}
+
+.container-img__piscis {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-rows: 650px;
+  gap: 20px;
+  padding-top: 20px;
+  background: #000;
+}
+
+.img__piscis {
+  width: 100%;
+  height: 100%;
+}
